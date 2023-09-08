@@ -9,7 +9,3 @@ services:
         ports:
             - '8876:80'
         container_name: app_nginx
-    php:
-        image: php:8.2-fpm
-        volumes:
-            - ./:/var/www
